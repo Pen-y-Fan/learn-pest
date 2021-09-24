@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+// https://pestphp.com/docs/assertions
+
 it('asserts true is true', function () {
     $this->assertTrue(
         condition: true
