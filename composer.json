@@ -1,5 +1,20 @@
 {
+    "name": "pen-y-fan/learn-pest",
+    "type": "project",
+    "description": "Learning resources from the Pest manual.",
+    "keywords": ["pest", "testing"],
+    "license": "MIT",
     "require-dev": {
         "pestphp/pest": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
 }
