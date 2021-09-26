@@ -4,6 +4,9 @@
     "description": "Learning resources from the Pest manual.",
     "keywords": ["pest", "testing"],
     "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
     "require-dev": {
         "pestphp/pest": "^1.19"
     },
@@ -16,5 +19,9 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "test": "pest",
+        "tests": "pest"
     }
 }
